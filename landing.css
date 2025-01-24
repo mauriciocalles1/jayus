@@ -1,0 +1,129 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Black background */
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Landing Page Container */
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh; /* Center content vertically */
+}
+
+/* Logo Styling */
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px; /* Adjust logo size */
+    height: auto;
+    margin-bottom: 30px;
+}
+
+/* Welcome Text */
+.welcome-text h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.welcome-text p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* Newsletter Form Section */
+.newsletter-section {
+    background-color: transparent;
+    padding: 20px;
+}
+
+.newsletter-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.newsletter-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-form input {
+    padding: 12px;
+    width: 250px;
+    margin-bottom: 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    background: transparent;
+    text-align: center;
+}
+
+.newsletter-form button {
+    padding: 12px 25px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #f0a500;
+}
+
+/* Footer Section */
+footer {
+    background-color: transparent;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .logo {
+        width: 120px;
+    }
+
+    .newsletter-form input {
+        width: 80%;
+    }
+}
+
