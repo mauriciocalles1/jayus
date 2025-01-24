@@ -10,16 +10,21 @@
 
     <!-- Landing Page Section -->
     <div class="landing-container">
+        <!-- Logo Section -->
+        <div class="logo-container">
+            <img src="img/haus-of-jayus-logo.png" alt="Haus of Jayus Logo" class="logo">
+        </div>
 
         <!-- Welcome Text Section -->
         <div class="welcome-text">
-            <h1>haus of jayus</h1>
+            <h1>Welcome to Haus of Jayus</h1>
+            <p>Stay in the loop with the latest trends and news.</p>
         </div>
 
         <!-- Newsletter Sign Up Section -->
         <div class="newsletter-section">
-            <h2></h2>
-            <p>Sign up for our exclusive updates.</p>
+            <h2>Don't Miss Out!</h2>
+            <p>Get updates straight to your inbox.</p>
             <form action="#" method="POST" class="newsletter-form">
                 <input type="email" name="email" id="email" placeholder="Enter your email" required>
                 <button type="submit">Subscribe</button>
@@ -35,4 +40,4 @@
     </footer>
 
 </body>
-</html>
+</html> 
