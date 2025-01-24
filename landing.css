@@ -25,9 +25,8 @@ body {
     justify-content: center; /* Center content vertically */
     align-items: center; /* Center content horizontally */
     text-align: center;
-    padding: 20px;
-    width: 100%; /* Ensure it takes full width */
-    max-width: 600px; /* Optional: restrict width for a better look */
+    width: 100%;
+    max-width: 600px; /* Optional: restrict width for better look */
 }
 
 /* Welcome Text */
@@ -106,3 +105,4 @@ footer p {
         width: 80%;
     }
 }
+
