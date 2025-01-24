@@ -1,110 +1,38 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #000; /* Black background */
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Vertically center */
-    align-items: center; /* Horizontally center */
-    height: 100vh;
-    margin: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haus of Jayus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-/* Landing Container - Centered Content */
-.landing-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Vertically center the content */
-    align-items: center; /* Horizontally center the content */
-    text-align: center;
-    padding: 20px;
-}
+    <!-- Landing Page Section -->
+    <div class="landing-container">
 
-/* Welcome Text */
-.welcome-text h1 {
-    font-size: 2.5rem;
-    color: #fff;
-    margin-bottom: 10px;
-}
+        <!-- Welcome Text Section -->
+        <div class="welcome-text">
+            <h1>haus of jayus</h1>
+        </div>
 
-.welcome-text p {
-    font-size: 1.2rem;
-    color: #fff;
-    margin-bottom: 30px;
-}
+        <!-- Newsletter Sign Up Section -->
+        <div class="newsletter-section">
+            <h2></h2>
+            <p>Sign up for our exclusive updates.</p>
+            <form action="#" method="POST" class="newsletter-form">
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
 
-/* Newsletter Form Section */
-.newsletter-section {
-    background-color: transparent;
-    padding: 20px;
-}
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Haus of Jayus. All rights reserved.</p>
+        </div>
+    </footer>
 
-.newsletter-section h2 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
-.newsletter-section p {
-    font-size: 1rem;
-    margin-bottom: 20px;
-}
-
-.newsletter-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.newsletter-form input {
-    padding: 12px;
-    width: 250px;
-    margin-bottom: 20px;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    font-size: 1rem;
-    color: #333;
-    background: transparent;
-    text-align: center;
-}
-
-.newsletter-form button {
-    padding: 12px 25px;
-    background-color: #fff;
-    color: #000;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.newsletter-form button:hover {
-    background-color: #f0a500;
-}
-
-/* Footer Section */
-footer {
-    background-color: transparent;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
-
-footer p {
-    font-size: 0.9rem;
-    color: #fff;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .logo {
-        width: 120px;
-    }
-
-    .newsletter-form input {
-        width: 80%;
-    }
-}
+</body>
+</html>
