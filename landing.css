@@ -1,13 +1,20 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #000; /* Black background */
     color: white;
     text-align: center;
     display: flex;
-    flex-direction: column;
-    justify-content: center; /* Vertically center */
-    align-items: center; /* Horizontally center */
-    height: 100vh;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
     margin: 0;
 }
 
@@ -15,23 +22,19 @@ body {
 .landing-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
     text-align: center;
-    height: 100vh; /* Use full height of the viewport */
+    padding: 20px;
+    width: 100%; /* Ensure it takes full width */
+    max-width: 600px; /* Optional: restrict width for a better look */
 }
 
 /* Welcome Text */
 .welcome-text h1 {
-    font-size: 2.5rem;
+    font-size: 3rem; /* Larger size for the header */
     color: #fff;
-    margin-bottom: 10px;
-}
-
-.welcome-text p {
-    font-size: 1.2rem;
-    color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 /* Newsletter Form Section */
@@ -40,13 +43,8 @@ body {
     padding: 20px;
 }
 
-.newsletter-section h2 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
 .newsletter-section p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 20px;
 }
 
