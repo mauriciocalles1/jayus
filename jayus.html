@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fashion Drop</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+      position: relative;
+    }
+    .brand {
+      display: block;
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+      margin: 30px 0 10px;
+    }
+    .nav {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .nav a {
+      display: inline-block;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+      margin: 0 15px;
+    }
+    .hero {
+      width: 100%;
+      height: 90vh;
+      background: url('https://via.placeholder.com/1600x900') center/cover no-repeat;
+      display: flex;
+      align-items: flex-end;
+      justify-content: left;
+      padding: 40px;
+      position: relative;
+    }
+    .hero-text {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px 30px;
+      border-radius: 10px;
+      max-width: 400px;
+    }
+    .hero-text h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .hero-text p {
+      font-size: 18px;
+      color: #333;
+    }
+    #shop {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+      padding: 60px 40px;
+    }
+    .product {
+      border: 1px solid #eee;
+      padding: 20px;
+      text-align: center;
+      background: #f9f9f9;
+      border-radius: 10px;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .product h3 {
+      margin: 15px 0 10px;
+      font-size: 20px;
+    }
+    .product p {
+      font-size: 18px;
+      color: #333;
+    }
+    .buy-now {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 18px;
+      background: black;
+      color: white;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s ease;
+    }
+    .buy-now:hover {
+      background: #333;
+    }
+    @media (max-width: 768px) {
+      #shop {
+        grid-template-columns: 1fr;
+        padding: 40px 20px;
+      }
+      .hero-text h1 {
+        font-size: 28px;
+      }
+      .hero-text p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a href="#" class="brand">JAYUS</a>
+  <div class="nav">
+    <a href="#shop">SHOP</a>
+    <a href="news.html">NEWS</a>
+  </div>
+
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Introducing the Drop</h1>
+      <p>A fusion of brutalist utility and refined fashion—enter the JAYUS experience.</p>
+    </div>
+  </div>
+
+  <div id="shop">
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400" alt="Baseball Tee">
+      <h3>Baseball Tee</h3>
+      <p>$100.00</p>
+      <a href="https://buy.stripe.com/test_bJeeVf3zX9Gc3Ln27WfEk00" target="_blank" class="buy-now">Buy Now</a>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400" alt="Summa Shorts">
+      <h3>Summa Shorts</h3>
+      <p>$100.00</p>
+      <a href="https://buy.stripe.com/test_bJe28t8Uh3hO6Xz4g4fEk01" target="_blank" class="buy-now">Buy Now</a>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400" alt="Bucket Bag">
+      <h3>Bucket Bag</h3>
+      <p>$100.00</p>
+      <a href="https://buy.stripe.com/test_00wcN78Uh6u05Tv5k8fEk02" target="_blank" class="buy-now">Buy Now</a>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300x400" alt="Magazine">
+      <h3>Magazine</h3>
+      <p>$100.00</p>
+      <a href="https://buy.stripe.com/test_dRm6oJgmJ3hO3Ln8wkfEk03" target="_blank" class="buy-now">Buy Now</a>
+    </div>
+  </div>
+
+</body>
+</html>
